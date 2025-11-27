@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal Berita</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      background: #f5f6f7;
+      font-family: Arial, sans-serif;
+    }
+    .news-img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .section-title {
+      border-left: 5px solid #0d6efd;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+    .news-card:hover {
+      transform: translateY(-5px);
+      transition: .3s;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    }
+    footer {
+      background: #111;
+      color: #eee;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">PortalBerita</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a href="#terkini" class="nav-link">Terkini</a></li>
+        <li class="nav-item"><a href="#nasional" class="nav-link">Nasional</a></li>
+        <li class="nav-item"><a href="#internasional" class="nav-link">Internasional</a></li>
+        <li class="nav-item"><a href="#olahraga" class="nav-link">Olahraga</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="container mt-4">
+  <div class="p-4 bg-primary text-white rounded">
+    <h2 class="fw-bold">Portal Berita Terkini</h2>
+    <p>Update informasi terbaru dari berbagai kategori setiap hari.</p>
+  </div>
+</div>
+
+<!-- ========== BERITA TERKINI ========== -->
+<section id="terkini" class="container mt-5">
+  <h3 class="section-title">Berita Terkini</h3>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="berita hongkong.jpeg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Kebakaran Apartemen Hong Kong: Jumlah Korban-Tersangka</h5>
+          <p class="card-text">Kebakaran besar yang melanda kompleks apartemen Wang Fuk Court di Hong Kong belum berhasil dipadamkan sepenuhnya pada Kamis (26/11/2025) pagi, sementara jumlah korban tewas melonjak menjadi 44 orang dan 279 penduduk masih dilapor...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="gonjang ganjing.jpeg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Gonjang-ganjing Posisi Gus Yahya di Pucuk Pimpinan PBNU</h5>
+          <p class="card-text">Rais Aam PBNU mengeluarkan surat terbaru yang memutuskan Gus Yahya tidak lagi Ketua Umum per 26 November 2025. Gus Yahya menyatakan surat...</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="berita krl.jpeg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Ruwet Perkara Tumbler Tuku, KAI Tegaskan Petugas KRL Belum Dipecat</h5>
+          <p class="card-text">KAI Commuter mengingatkan bahwa barang pribadi yang tertinggal di KRL merupakan tanggung jawab pengguna untuk menjaga dan memperhatikan...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== BERITA NASIONAL ========== -->
+<section id="nasional" class="container mt-5">
+  <h3 class="section-title">Berita Nasional</h3>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="guru.jpg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Hari Guru nasional</h5>
+          <p class="card-text">Berita Berita Terkini Hari Guru Nasional - Hari Guru Nasional diperingati setiap 25 November sebagai pengingat perjalanan panjang perjuangan para pendidik...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="pasar.jpg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Rata rata harga pangan hari ini alami lonjkan yang cukup signifikan</h5>
+          <p class="card-text">Naik turunnya harga pangan bisa dipicu oleh berbagai sebab, mulai dari meningkatnya permintaan konsumen, cuaca ekstrem yang mengakibatkan...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="berita longsor.jpg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Tangani Longsor dan banjir bandang, Kemendagri dan BNPB Bangun Posko Nasional di Tapanuli Utara</h5>
+          <p class="card-text">Dirjen Bina Adwil Kemendagri Safrizal ZA memimpin tim ke lokasi banjir dan longsor di Kota Sibolga, Sumatera Utara pada Rabu (26/11/2025).  Bencana alam banjir bandang dan longsor yang terjadi pada Senin...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== BERITA INTERNASIONAL ========== -->
+<section id="internasional" class="container mt-5">
+  <h3 class="section-title">Berita Internasional</h3>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="korea.jpg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Mereka yang Berjuang Membawa Kabar Dunia ke Korea Utara</h5>
+          <p class="card-text">Di Korea Utara, semua perangkat radio dan televisi terhubung dengan saluran milik negara. Pendengar berita asing bisa dipenjara jika...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="malaysia.jpeg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Investor Malaysia Tinjau Sabang, Rencana Bangun Hub Bunkering Internasional</h5>
+          <p class="card-text">Gubernur Aceh, H. Muzakir Manaf, mendampingi Chief Executive Officer (CEO) Blackstone Malaysia, Datin Seri Vie Shantie Khan, yang berkunjung ke Kota Sabang, Rabu (5/11/2025). Kunjungan ini merupa...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="syariah.jpg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Syakirah Wakili Kalbar Raih Gelar Miss Teenager Indonesia 2025, Siap Melangkah ke Ajang Internasional</h5>
+          <p class="card-text">Syakirah asal Kalimantan Barat meraih gelar Miss Teenager Indonesia 2025. Ia bersiap mewakili Indonesia ke tingkat internasional dan...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== BERITA OLAHRAGA ========== -->
+<section id="olahraga" class="container mt-5 mb-5">
+  <h3 class="section-title">Berita Olahraga</h3>
+
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="olahraga.jpg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Perhelatan Olahraga ASN Se-Indonesia di Kota Palembang, Kemenkeu Raih Satu Emas</h5>
+          <p class="card-text">Sumatera Selatan menjadi tuan rumah kegiatan Pekan Olahraga Nasional ke-17 Korps Pegawai Republik Indonesia (PORNAS XVII KORPRI), yang dilaksanakan pada tanggal 5 s.d. 11 Oktober 2025 di berbagai venue olahraga di Kota Palembang...</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="berita badminton.jpg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Atlet Indonesia Raih Dua Emas Cabor Badminton di ASEAN School Games 2025</h5>
+          <p class="card-text"> Tim badminton Pelajar Indonesia kembali menunjukkan dominasinya di cabang tepok bulu ini setelah meraih dua medali emas pada ajang ASEAN School Games (ASG) 2025 di Sport School Brunei Darussalam Senin 24 November 2025.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card news-card">
+        <img src="liga.jpg" class="card-img-top news-img">
+        <div class="card-body">
+          <h5 class="card-title">Hasil Liga Champions: Arsenal Sempurna, Mbappe Cetak Empat Gol, Liverpool Tersungkur</h5>
+          <p class="card-text">Matchday 5 Liga Champions 2025 menghadirkan banyak kejutan: Arsenal menaklukkan Bayern Munich dan merebut posisi puncak, Kylian Mbappe mengemas empat gol untuk Real Madrid, juara bertahan Paris mencetak lima gol, hingga PSV yang membuat Liverpool tak berdaya di Anfield..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2025 PortalBerita — Informasi Terkini & Terpercaya.
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+ 
